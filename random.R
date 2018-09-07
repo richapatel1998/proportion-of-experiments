@@ -7,10 +7,6 @@ print (sum(x == 'T')) # print the number of tails
 n <- 100000 # Run 1000 experiments
 # Initialize a vector of length n to store the number of tails
 nTails <- rep(NA , n)
-### Fill in code from here . ###
-# Hint : Type in ?`for ` in the R console and then hit enter .
-# See the examples there .
-# Also see the examples in ?`[`
 
 for(i in 1:n){
   u <- runif (3)
